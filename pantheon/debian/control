@@ -1,0 +1,31 @@
+Source: pantheon-global-menu
+Section: x11
+Priority: optional
+Maintainer: Alexandre Rosenfeld <alex@rosenfeld.one>
+Build-Depends: debhelper-compat (= 13),
+               meson,
+               valac,
+               libglib2.0-dev,
+               libgtk-3-dev,
+               libjson-glib-dev,
+               libgee-0.8-dev,
+               libdbusmenu-gtk3-dev,
+               libgala-dev,
+               libwingpanel-dev,
+               libmutter-14-dev | libmutter-16-dev
+Standards-Version: 4.6.2
+Homepage: https://github.com/arsfeld/pantheon-global-menu
+Rules-Requires-Root: no
+
+Package: pantheon-global-menu
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, gala, wingpanel
+Description: Global menu for Pantheon
+ Shows the focused application's menus in Wingpanel, next to
+ Applications. Consists of a Wingpanel indicator, which draws the menus,
+ and a Gala plugin, which tracks the focused window, implements the
+ com.canonical.AppMenu.Registrar service and types shortcuts on the
+ indicator's behalf. Applications that export no menu get a menu of their
+ keyboard shortcuts from the bundled mapping files.
+ .
+ Log out and back in after installing: Gala loads plugins only at startup.

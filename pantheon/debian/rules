@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+# The source tree is assembled by build.sh: the meson project in pantheon/,
+# the shortcut mappings it installs from ../global-menu@unmade.space, and
+# this directory as debian/.
+
+%:
+	dh $@ --buildsystem=meson --sourcedirectory=pantheon

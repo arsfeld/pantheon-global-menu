@@ -1,0 +1,26 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: pantheon-global-menu
+Source: https://github.com/arsfeld/pantheon-global-menu
+
+Files: *
+Copyright: Orbit Global Menu contributors
+           Alexandre Rosenfeld
+License: GPL-3.0-or-later
+
+Files: pantheon/vapi/libmutter-* pantheon/vapi/mutter-* pantheon/vapi/xfixes-4.0.vapi
+Copyright: elementary, Inc.
+License: GPL-3.0-or-later
+Comment: Copied from Gala's source tree.
+
+Files: pantheon/vapi/dbusmenu-*
+Copyright: Canonical Ltd.
+License: LGPL-3.0
+Comment: Vala bindings generated from libdbusmenu.
+
+License: GPL-3.0-or-later
+ On Debian systems, the full text of the GNU General Public License
+ version 3 can be found in /usr/share/common-licenses/GPL-3.
+
+License: LGPL-3.0
+ On Debian systems, the full text of the GNU Lesser General Public License
+ version 3 can be found in /usr/share/common-licenses/LGPL-3.

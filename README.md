@@ -1,5 +1,11 @@
 # Orbit Global Menu
 
+> **This fork adds a Pantheon port** (elementary OS's desktop): a Gala plugin
+> and a Wingpanel indicator that reuse Orbit's shortcut menus, plus mappings
+> for elementary's own apps. See [pantheon/README.md](pantheon/README.md).
+> Everything outside `pantheon/` and the new `io.elementary.*` mappings is
+> upstream's, unchanged.
+
 A menu bar for GNOME. The focused application's menus move out of its window
 and into the top panel.
 
