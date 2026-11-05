@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "app": "elementary-videos",
+  "name": "Videos",
+  "identifiers": ["io.elementary.videos.desktop", "io.elementary.videos", "Videos"],
+  "menus": [
+    {
+      "label": "File",
+      "items": [
+        {"label": "Open…", "shortcut": "<Ctrl>o"},
+        {"separator": true},
+        {"label": "Quit", "shortcut": "<Ctrl>q"}
+      ]
+    },
+    {
+      "label": "Edit",
+      "items": [
+        {"label": "Undo Move to Trash", "shortcut": "<Ctrl>z"},
+        {"separator": true},
+        {"label": "Search Videos", "shortcut": "<Ctrl>f"}
+      ]
+    },
+    {
+      "label": "View",
+      "items": [
+        {"label": "Fullscreen", "shortcut": "F11"},
+        {"label": "Show Library", "shortcut": "<Ctrl>b"}
+      ]
+    },
+    {
+      "label": "Playback",
+      "items": [
+        {"label": "Play/Pause", "shortcut": "space"},
+        {"separator": true},
+        {"label": "Next Audio Track", "shortcut": "a"},
+        {"label": "Next Subtitles", "shortcut": "s"},
+        {"separator": true},
+        {"label": "Seek", "items": [
+          {"label": "Back 1 Second", "shortcut": "<Shift>Left"},
+          {"label": "Forward 1 Second", "shortcut": "<Shift>Right"},
+          {"label": "Back 5 Seconds", "shortcut": "<Shift>Down"},
+          {"label": "Forward 5 Seconds", "shortcut": "<Shift>Up"},
+          {"label": "Back 10 Seconds", "shortcut": "Left"},
+          {"label": "Forward 10 Seconds", "shortcut": "Right"},
+          {"label": "Back 1 Minute", "shortcut": "Down"},
+          {"label": "Forward 1 Minute", "shortcut": "Up"},
+          {"label": "Back 10 Minutes", "shortcut": "Page_Down"},
+          {"label": "Forward 10 Minutes", "shortcut": "Page_Up"}
+        ]}
+      ]
+    }
+  ]
+}

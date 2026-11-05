@@ -1,0 +1,18 @@
+{
+  "format": 1,
+  "app": "elementary-screenshot",
+  "name": "Screenshot",
+  "identifiers": [
+    "io.elementary.screenshot.desktop",
+    "io.elementary.screenshot",
+    "Screenshot"
+  ],
+  "menus": [
+    {
+      "label": "File",
+      "items": [
+        {"label": "Quit", "shortcut": "<Ctrl>q"}
+      ]
+    }
+  ]
+}

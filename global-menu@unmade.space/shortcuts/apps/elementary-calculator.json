@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "app": "elementary-calculator",
+  "name": "Calculator",
+  "identifiers": [
+    "io.elementary.calculator.desktop",
+    "io.elementary.calculator",
+    "Calculator"
+  ],
+  "menus": [
+    {
+      "label": "File",
+      "items": [
+        {"label": "Quit", "shortcut": "<Ctrl>q"}
+      ]
+    },
+    {
+      "label": "Edit",
+      "items": [
+        {"label": "Undo", "shortcut": "<Ctrl>z"},
+        {"separator": true},
+        {"label": "Copy", "shortcut": "<Ctrl>c"},
+        {"label": "Paste", "shortcut": "<Ctrl>v"},
+        {"separator": true},
+        {"label": "Clear Entry", "shortcut": "Escape"}
+      ]
+    }
+  ]
+}

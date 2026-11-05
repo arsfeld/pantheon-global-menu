@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "app": "elementary-files",
+  "name": "Files",
+  "identifiers": [
+    "io.elementary.files.desktop",
+    "io.elementary.files",
+    "Files"
+  ],
+  "menus": [
+    {
+      "label": "File",
+      "items": [
+        {"label": "New Window", "shortcut": "<Ctrl>n"},
+        {"label": "New Tab", "shortcut": "<Ctrl>t"},
+        {"label": "New Folder", "shortcut": "<Ctrl><Shift>n"},
+        {"separator": true},
+        {"label": "Properties", "shortcut": "<Alt>Return"},
+        {"separator": true},
+        {"label": "Close Tab", "shortcut": "<Ctrl>w"},
+        {"label": "Quit", "shortcut": "<Ctrl>q"}
+      ]
+    },
+    {
+      "label": "Edit",
+      "items": [
+        {"label": "Undo", "shortcut": "<Ctrl>z"},
+        {"label": "Redo", "shortcut": "<Ctrl><Shift>z"},
+        {"separator": true},
+        {"label": "Cut", "shortcut": "<Ctrl>x"},
+        {"label": "Copy", "shortcut": "<Ctrl>c"},
+        {"label": "Copy as Link", "shortcut": "<Ctrl><Shift>c"},
+        {"label": "Paste", "shortcut": "<Ctrl>v"},
+        {"label": "Paste into Folder", "shortcut": "<Ctrl><Shift>v"},
+        {"separator": true},
+        {"label": "Rename…", "shortcut": "F2"},
+        {"label": "Move to Trash", "shortcut": "Delete"},
+        {"label": "Delete Permanently", "shortcut": "<Shift>Delete"},
+        {"separator": true},
+        {"label": "Select All", "shortcut": "<Ctrl>a"},
+        {"label": "Invert Selection", "shortcut": "<Ctrl><Shift>a"},
+        {"separator": true},
+        {"label": "Find", "shortcut": "<Ctrl>f"}
+      ]
+    },
+    {
+      "label": "View",
+      "items": [
+        {"label": "View as Grid", "shortcut": "<Ctrl>1"},
+        {"label": "View as List", "shortcut": "<Ctrl>2"},
+        {"label": "View in Columns", "shortcut": "<Ctrl>3"},
+        {"separator": true},
+        {"label": "Zoom In", "shortcut": "<Ctrl>plus"},
+        {"label": "Zoom Out", "shortcut": "<Ctrl>minus"},
+        {"label": "Zoom 1:1", "shortcut": "<Ctrl>0"},
+        {"separator": true},
+        {"label": "Hidden Files", "shortcut": "<Ctrl>h"},
+        {"label": "Reload this Folder", "shortcut": "<Ctrl>r"},
+        {"separator": true},
+        {"label": "Focus Sidebar", "shortcut": "<Ctrl><Alt>Left"},
+        {"label": "Focus Folder View", "shortcut": "<Ctrl><Alt>Right"}
+      ]
+    },
+    {
+      "label": "Go",
+      "items": [
+        {"label": "Previous", "shortcut": "<Alt>Left"},
+        {"label": "Next"},
+        {"label": "Up", "shortcut": "<Alt>Up"},
+        {"separator": true},
+        {"label": "Home", "shortcut": "<Alt>Home"},
+        {"label": "Recent", "shortcut": "<Alt>r"},
+        {"label": "Trash", "shortcut": "<Alt>t"},
+        {"label": "File System", "shortcut": "<Alt>slash"},
+        {"label": "Network", "shortcut": "<Alt>n"},
+        {"label": "Connect Server…", "shortcut": "<Alt>c"},
+        {"separator": true},
+        {"label": "Type Path", "shortcut": "<Ctrl>l"},
+        {"label": "Add to Bookmarks", "shortcut": "<Ctrl>d"}
+      ]
+    },
+    {
+      "label": "Tabs",
+      "items": [
+        {"label": "Next Tab", "shortcut": "<Ctrl>Page_Down"},
+        {"label": "Previous Tab", "shortcut": "<Ctrl>Page_Up"},
+        {"separator": true},
+        {"label": "Duplicate Tab", "shortcut": "<Ctrl><Shift>k"},
+        {"label": "Open in New Window", "shortcut": "<Ctrl><Alt>n"},
+        {"separator": true},
+        {"label": "Close Tab", "shortcut": "<Ctrl>w"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "app": "elementary-appcenter",
+  "name": "AppCenter",
+  "identifiers": ["io.elementary.appcenter.desktop", "io.elementary.appcenter", "AppCenter"],
+  "menus": [
+    {
+      "label": "File",
+      "items": [
+        {"label": "Check for Updates", "shortcut": "<Ctrl>r"},
+        {"separator": true},
+        {"label": "Quit", "shortcut": "<Ctrl>q"}
+      ]
+    },
+    {
+      "label": "Edit",
+      "items": [
+        {"label": "Search Apps", "shortcut": "<Ctrl>f"}
+      ]
+    },
+    {
+      "label": "Go",
+      "items": [
+        {"label": "Back", "shortcut": "<Alt>Left"}
+      ]
+    }
+  ]
+}

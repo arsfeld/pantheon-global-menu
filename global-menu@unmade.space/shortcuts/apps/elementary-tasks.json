@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "app": "elementary-tasks",
+  "name": "Tasks",
+  "identifiers": [
+    "io.elementary.tasks.desktop",
+    "io.elementary.tasks",
+    "Tasks"
+  ],
+  "menus": [
+    {
+      "label": "File",
+      "items": [
+        {"label": "Add Task List…"},
+        {"separator": true},
+        {"label": "Quit", "shortcut": "<Ctrl>q"}
+      ]
+    },
+    {
+      "label": "Edit",
+      "items": [
+        {"label": "Delete List…", "shortcut": "<Ctrl>BackSpace"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "app": "elementary-photos",
+  "name": "Photos",
+  "identifiers": [
+    "io.elementary.photos.desktop",
+    "io.elementary.photos",
+    "Photos"
+  ],
+  "menus": [
+    {
+      "label": "File",
+      "items": [
+        {"label": "Import From Folder…", "shortcut": "<Ctrl>i"},
+        {"label": "New Smart Album…", "shortcut": "<Ctrl>s"},
+        {"separator": true},
+        {"label": "Show in Files", "shortcut": "<Ctrl><Shift>m"},
+        {"separator": true},
+        {"label": "Quit", "shortcut": "<Ctrl>q"}
+      ]
+    },
+    {
+      "label": "Edit",
+      "items": [
+        {"label": "Undo", "shortcut": "<Ctrl>z"},
+        {"label": "Redo", "shortcut": "<Ctrl><Shift>z"},
+        {"separator": true},
+        {"label": "Copy", "shortcut": "<Ctrl>c"},
+        {"separator": true},
+        {"label": "Select All", "shortcut": "<Ctrl>a"},
+        {"label": "Select None", "shortcut": "<Ctrl><Shift>a"},
+        {"separator": true},
+        {"label": "Find", "shortcut": "<Ctrl>f"}
+      ]
+    },
+    {
+      "label": "View",
+      "items": [
+        {"label": "Toggle Sidebar", "shortcut": "F9"},
+        {"label": "Toggle Photo Info", "shortcut": "F10"},
+        {"label": "Fullscreen", "shortcut": "F11"},
+        {"separator": true},
+        {"label": "Zoom In", "shortcut": "<Ctrl>plus"},
+        {"label": "Zoom Out", "shortcut": "<Ctrl>minus"},
+        {"label": "Zoom 1:1", "shortcut": "KP_Divide"},
+        {"label": "Zoom to Fit Page", "shortcut": "KP_Multiply"}
+      ]
+    },
+    {
+      "label": "Photo",
+      "items": [
+        {"label": "Rotate Right", "shortcut": "bracketright"},
+        {"label": "Rotate Left", "shortcut": "bracketleft"},
+        {"label": "Flag", "shortcut": "slash"},
+        {"separator": true},
+        {"label": "Move to Trash", "shortcut": "Delete"}
+      ]
+    },
+    {
+      "label": "Go",
+      "items": [
+        {"label": "Previous Photo", "shortcut": "Left"},
+        {"label": "Next Photo", "shortcut": "Right"},
+        {"separator": true},
+        {"label": "Back to Collection", "shortcut": "Escape"}
+      ]
+    }
+  ]
+}

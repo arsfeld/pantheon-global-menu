@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "app": "elementary-monitor",
+  "name": "Monitor",
+  "identifiers": ["io.elementary.monitor.desktop", "io.elementary.monitor", "Monitor"],
+  "menus": [
+    {
+      "label": "File",
+      "items": [
+        {"label": "Quit", "shortcut": "<Ctrl>q"}
+      ]
+    },
+    {
+      "label": "Edit",
+      "items": [
+        {"label": "Search Process Name or PID", "shortcut": "<Ctrl>f"},
+        {"separator": true},
+        {"label": "Settings", "shortcut": "F10"}
+      ]
+    },
+    {
+      "label": "Process",
+      "items": [
+        {"label": "Shut Down…", "shortcut": "<Ctrl>e"},
+        {"label": "Force Quit…", "shortcut": "<Ctrl>k"}
+      ]
+    }
+  ]
+}

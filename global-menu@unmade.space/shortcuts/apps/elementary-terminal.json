@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "app": "elementary-terminal",
+  "name": "Terminal",
+  "identifiers": [
+    "io.elementary.terminal.desktop",
+    "io.elementary.terminal",
+    "Terminal"
+  ],
+  "menus": [
+    {
+      "label": "File",
+      "items": [
+        {"label": "New Window", "shortcut": "<Ctrl><Shift>n"},
+        {"label": "New Tab", "shortcut": "<Ctrl><Shift>t"},
+        {"separator": true},
+        {"label": "Close Tab", "shortcut": "<Ctrl><Shift>w"},
+        {"label": "Quit", "shortcut": "<Ctrl><Shift>q"}
+      ]
+    },
+    {
+      "label": "Edit",
+      "items": [
+        {"label": "Copy", "shortcut": "<Ctrl><Shift>c"},
+        {"label": "Copy Last Output", "shortcut": "<Alt>c"},
+        {"label": "Paste", "shortcut": "<Ctrl><Shift>v"},
+        {"label": "Select All", "shortcut": "<Ctrl><Shift>a"},
+        {"separator": true},
+        {"label": "Clear Screen", "shortcut": "<Ctrl><Shift>l"},
+        {"label": "Reset", "shortcut": "<Ctrl><Shift>k"}
+      ]
+    },
+    {
+      "label": "View",
+      "items": [
+        {"label": "Zoom In", "shortcut": "<Ctrl>plus"},
+        {"label": "Zoom Out", "shortcut": "<Ctrl>minus"},
+        {"label": "Default Zoom Level", "shortcut": "<Ctrl>0"},
+        {"separator": true},
+        {"label": "Scroll to Last Command", "shortcut": "<Alt>u"},
+        {"separator": true},
+        {"label": "Fullscreen", "shortcut": "F11"}
+      ]
+    },
+    {
+      "label": "Search",
+      "items": [
+        {"label": "Find…", "shortcut": "<Ctrl><Shift>f"},
+        {"label": "Next Result", "shortcut": "<Ctrl>g"},
+        {"label": "Previous Result", "shortcut": "<Ctrl><Shift>g"}
+      ]
+    },
+    {
+      "label": "Tabs",
+      "items": [
+        {"label": "Next Tab", "shortcut": "<Ctrl>Tab"},
+        {"label": "Previous Tab", "shortcut": "<Ctrl><Shift>Tab"},
+        {"label": "Go to Tab", "items": [
+          {"label": "Tab 1", "shortcut": "<Alt>1"},
+          {"label": "Tab 2", "shortcut": "<Alt>2"},
+          {"label": "Tab 3", "shortcut": "<Alt>3"},
+          {"label": "Tab 4", "shortcut": "<Alt>4"},
+          {"label": "Tab 5", "shortcut": "<Alt>5"},
+          {"label": "Tab 6", "shortcut": "<Alt>6"},
+          {"label": "Tab 7", "shortcut": "<Alt>7"},
+          {"label": "Tab 8", "shortcut": "<Alt>8"},
+          {"label": "Last Tab", "shortcut": "<Alt>9"}
+        ]},
+        {"separator": true},
+        {"label": "Move Tab Right", "shortcut": "<Ctrl><Alt>Right"},
+        {"label": "Move Tab Left", "shortcut": "<Ctrl><Alt>Left"},
+        {"separator": true},
+        {"label": "Duplicate Tab", "shortcut": "<Ctrl><Shift>d"},
+        {"label": "Reload", "shortcut": "<Ctrl><Shift>r"}
+      ]
+    }
+  ]
+}

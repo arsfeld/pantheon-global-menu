@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "app": "elementary-mail",
+  "name": "Mail",
+  "identifiers": ["io.elementary.mail.desktop", "io.elementary.mail", "Mail"],
+  "menus": [
+    {
+      "label": "File",
+      "items": [
+        {"label": "Compose New Message", "shortcut": "<Ctrl>n"},
+        {"label": "Fetch New Messages", "shortcut": "F12"},
+        {"separator": true},
+        {"label": "Quit", "shortcut": "<Ctrl>q"}
+      ]
+    },
+    {
+      "label": "Message",
+      "items": [
+        {"label": "Reply", "shortcut": "<Ctrl>r"},
+        {"label": "Reply All", "shortcut": "<Ctrl><Shift>r"},
+        {"label": "Forward", "shortcut": "<Ctrl><Shift>f"},
+        {"separator": true},
+        {"label": "Mark as Read", "shortcut": "<Ctrl><Shift>i"},
+        {"label": "Mark as Unread", "shortcut": "<Ctrl><Shift>u"},
+        {"label": "Star", "shortcut": "<Ctrl>l"},
+        {"label": "Unstar", "shortcut": "<Ctrl><Shift>l"},
+        {"separator": true},
+        {"label": "Move to Archive", "shortcut": "<Ctrl><Shift>a"},
+        {"label": "Move to Trash", "shortcut": "Delete"}
+      ]
+    },
+    {
+      "label": "Compose",
+      "items": [
+        {"label": "Send", "shortcut": "<Ctrl>Return"},
+        {"label": "Attach File", "shortcut": "<Alt>i"},
+        {"separator": true},
+        {"label": "Bold", "shortcut": "<Ctrl>b"},
+        {"label": "Italic", "shortcut": "<Ctrl>i"},
+        {"label": "Underline", "shortcut": "<Ctrl>u"},
+        {"label": "Strikethrough", "shortcut": "<Ctrl>percent"},
+        {"separator": true},
+        {"label": "Insert Link", "shortcut": "<Ctrl>k"}
+      ]
+    },
+    {
+      "label": "View",
+      "items": [
+        {"label": "Fullscreen", "shortcut": "F11"}
+      ]
+    }
+  ]
+}

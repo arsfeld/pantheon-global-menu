@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "app": "elementary-photos-viewer",
+  "name": "Photo Viewer",
+  "identifiers": [
+    "io.elementary.photos.viewer.desktop",
+    "io.elementary.photos.viewer",
+    "Photo Viewer"
+  ],
+  "menus": [
+    {
+      "label": "File",
+      "items": [
+        {"label": "Save", "shortcut": "<Ctrl>s"},
+        {"label": "Save As", "shortcut": "<Ctrl><Shift>s"},
+        {"separator": true},
+        {"label": "Show in Files", "shortcut": "<Ctrl><Shift>m"},
+        {"separator": true},
+        {"label": "Quit", "shortcut": "<Ctrl>q"}
+      ]
+    },
+    {
+      "label": "Edit",
+      "items": [
+        {"label": "Undo", "shortcut": "<Ctrl>z"},
+        {"label": "Redo", "shortcut": "<Ctrl><Shift>z"},
+        {"separator": true},
+        {"label": "Copy", "shortcut": "<Ctrl>c"},
+        {"label": "Copy Metadata", "shortcut": "<Ctrl><Shift>c"}
+      ]
+    },
+    {
+      "label": "View",
+      "items": [
+        {"label": "Fullscreen", "shortcut": "F11"},
+        {"separator": true},
+        {"label": "Zoom In", "shortcut": "<Ctrl>plus"},
+        {"label": "Zoom Out", "shortcut": "<Ctrl>minus"},
+        {"label": "Zoom 1:1", "shortcut": "KP_Divide"},
+        {"label": "Zoom to Fit Page", "shortcut": "KP_Multiply"}
+      ]
+    },
+    {
+      "label": "Photo",
+      "items": [
+        {"label": "Rotate Right", "shortcut": "bracketright"},
+        {"label": "Rotate Left", "shortcut": "bracketleft"}
+      ]
+    },
+    {
+      "label": "Go",
+      "items": [
+        {"label": "Previous Photo", "shortcut": "Left"},
+        {"label": "Next Photo", "shortcut": "Right"}
+      ]
+    }
+  ]
+}

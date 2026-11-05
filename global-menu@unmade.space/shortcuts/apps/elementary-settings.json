@@ -1,0 +1,18 @@
+{
+  "format": 1,
+  "app": "elementary-settings",
+  "name": "System Settings",
+  "identifiers": [
+    "io.elementary.settings.desktop",
+    "io.elementary.settings",
+    "System Settings"
+  ],
+  "menus": [
+    {
+      "label": "File",
+      "items": [
+        {"label": "Quit", "shortcut": "<Ctrl>q"}
+      ]
+    }
+  ]
+}

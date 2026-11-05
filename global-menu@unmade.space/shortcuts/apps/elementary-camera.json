@@ -1,0 +1,24 @@
+{
+  "format": 1,
+  "app": "elementary-camera",
+  "name": "Camera",
+  "identifiers": ["io.elementary.camera.desktop", "io.elementary.camera", "Camera"],
+  "menus": [
+    {
+      "label": "File",
+      "items": [
+        {"label": "Take Photo"},
+        {"separator": true},
+        {"label": "Quit", "shortcut": "<Ctrl>q"}
+      ]
+    },
+    {
+      "label": "View",
+      "items": [
+        {"label": "Fullscreen", "shortcut": "F11"},
+        {"separator": true},
+        {"label": "Settings", "shortcut": "F10"}
+      ]
+    }
+  ]
+}

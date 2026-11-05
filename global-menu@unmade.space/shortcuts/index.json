@@ -293,6 +293,23 @@
     "ytmdesktop.json",
     "zaptide.json",
     "vicinae.json",
-    "asciidraw.json"
+    "asciidraw.json",
+    "elementary-appcenter.json",
+    "elementary-calculator.json",
+    "elementary-calendar.json",
+    "elementary-camera.json",
+    "elementary-code.json",
+    "elementary-files.json",
+    "elementary-mail.json",
+    "elementary-maps.json",
+    "elementary-monitor.json",
+    "elementary-music.json",
+    "elementary-photos-viewer.json",
+    "elementary-photos.json",
+    "elementary-screenshot.json",
+    "elementary-settings.json",
+    "elementary-tasks.json",
+    "elementary-terminal.json",
+    "elementary-videos.json"
   ]
 }

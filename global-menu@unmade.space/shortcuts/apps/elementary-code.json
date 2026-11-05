@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "app": "elementary-code",
+  "name": "Code",
+  "identifiers": [
+    "io.elementary.code.desktop",
+    "io.elementary.code",
+    "Code"
+  ],
+  "menus": [
+    {
+      "label": "File",
+      "items": [
+        {"label": "New Tab", "shortcut": "<Ctrl>n"},
+        {"label": "Open…", "shortcut": "<Ctrl>o"},
+        {"label": "Open Folder…", "shortcut": "<Ctrl><Shift>o"},
+        {"separator": true},
+        {"label": "Save", "shortcut": "<Ctrl>s"},
+        {"label": "Save As…", "shortcut": "<Ctrl><Shift>s"},
+        {"separator": true},
+        {"label": "Close Tab", "shortcut": "<Ctrl>w"},
+        {"label": "Close Window", "shortcut": "<Ctrl>F4"},
+        {"label": "Quit", "shortcut": "<Ctrl>q"}
+      ]
+    },
+    {
+      "label": "Edit",
+      "items": [
+        {"label": "Undo", "shortcut": "<Ctrl>z"},
+        {"label": "Redo", "shortcut": "<Ctrl><Shift>z"},
+        {"separator": true},
+        {"label": "Duplicate Selection", "shortcut": "<Ctrl>d"},
+        {"label": "Clear Lines", "shortcut": "<Ctrl>k"},
+        {"label": "Sort Lines", "shortcut": "F5"},
+        {"label": "Toggle Comment", "shortcut": "<Ctrl>m"},
+        {"separator": true},
+        {"label": "To Lower Case", "shortcut": "<Ctrl>l"},
+        {"label": "To Upper Case", "shortcut": "<Ctrl>u"}
+      ]
+    },
+    {
+      "label": "Search",
+      "items": [
+        {"label": "Find on Page…", "shortcut": "<Ctrl>f"},
+        {"label": "Search Next", "shortcut": "<Ctrl>g"},
+        {"label": "Search Previous", "shortcut": "<Ctrl><Shift>g"},
+        {"label": "Replace…", "shortcut": "<Ctrl>r"},
+        {"separator": true},
+        {"label": "Find in Project…", "shortcut": "<Ctrl><Shift>f"}
+      ]
+    },
+    {
+      "label": "Go",
+      "items": [
+        {"label": "Go to Line…", "shortcut": "<Ctrl>i"},
+        {"label": "Goto Matching Bracket", "shortcut": "<Ctrl><Shift>i"},
+        {"separator": true},
+        {"label": "Mark Line", "shortcut": "<Alt>equal"},
+        {"label": "Previous Mark", "shortcut": "<Alt>Left"},
+        {"label": "Next Mark", "shortcut": "<Alt>Right"}
+      ]
+    },
+    {
+      "label": "View",
+      "items": [
+        {"label": "Zoom In", "shortcut": "<Ctrl>plus"},
+        {"label": "Zoom Out", "shortcut": "<Ctrl>minus"},
+        {"label": "Zoom 1:1", "shortcut": "<Ctrl>0"},
+        {"separator": true},
+        {"label": "Projects Sidebar", "shortcut": "F9"},
+        {"label": "Symbol Outline", "shortcut": "<Alt>backslash"},
+        {"label": "Terminal", "shortcut": "<Ctrl><Alt>t"},
+        {"separator": true},
+        {"label": "Focus Sidebar", "shortcut": "<Ctrl><Alt>Left"},
+        {"label": "Focus Document", "shortcut": "<Ctrl><Alt>Right"},
+        {"separator": true},
+        {"label": "Fullscreen", "shortcut": "F11"}
+      ]
+    },
+    {
+      "label": "Project",
+      "items": [
+        {"label": "Open in Terminal Pane", "shortcut": "<Ctrl><Alt><Shift>t"},
+        {"label": "Branch Actions…", "shortcut": "<Ctrl>b"},
+        {"label": "Hide Open Documents", "shortcut": "<Ctrl><Shift>h"}
+      ]
+    },
+    {
+      "label": "Tabs",
+      "items": [
+        {"label": "Next Tab", "shortcut": "<Ctrl>Tab"},
+        {"label": "Previous Tab", "shortcut": "<Ctrl><Shift>Tab"},
+        {"separator": true},
+        {"label": "Duplicate Tab", "shortcut": "<Ctrl><Shift>k"},
+        {"label": "Open in New Window", "shortcut": "<Ctrl><Alt>n"},
+        {"separator": true},
+        {"label": "Close Tab", "shortcut": "<Ctrl>w"},
+        {"label": "Close Other Tabs", "shortcut": "<Ctrl><Shift>w"}
+      ]
+    }
+  ]
+}

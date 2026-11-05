@@ -1,0 +1,25 @@
+{
+  "format": 1,
+  "app": "elementary-music",
+  "name": "Music",
+  "identifiers": ["io.elementary.music.desktop", "io.elementary.music", "Music"],
+  "menus": [
+    {
+      "label": "File",
+      "items": [
+        {"label": "Open Files…", "shortcut": "<Ctrl>o"},
+        {"label": "Save Queue to Playlist…", "shortcut": "<Ctrl>s"},
+        {"separator": true},
+        {"label": "Quit", "shortcut": "<Ctrl>q"}
+      ]
+    },
+    {
+      "label": "Edit",
+      "items": [
+        {"label": "Search", "shortcut": "<Ctrl>f"},
+        {"separator": true},
+        {"label": "Remove from Queue", "shortcut": "Delete"}
+      ]
+    }
+  ]
+}

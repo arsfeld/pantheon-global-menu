@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "app": "elementary-maps",
+  "name": "Maps",
+  "identifiers": ["io.elementary.maps.desktop", "io.elementary.maps", "Maps"],
+  "menus": [
+    {
+      "label": "File",
+      "items": [
+        {"label": "Quit", "shortcut": "<Ctrl>q"}
+      ]
+    },
+    {
+      "label": "Edit",
+      "items": [
+        {"label": "Search Maps", "shortcut": "<Ctrl>f"}
+      ]
+    },
+    {
+      "label": "View",
+      "items": [
+        {"label": "Main Menu", "shortcut": "F10"}
+      ]
+    }
+  ]
+}

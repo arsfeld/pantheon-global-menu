@@ -1,0 +1,25 @@
+{
+  "format": 1,
+  "app": "elementary-calendar",
+  "name": "Calendar",
+  "identifiers": ["io.elementary.calendar.desktop", "io.elementary.calendar", "Calendar"],
+  "menus": [
+    {
+      "label": "File",
+      "items": [
+        {"label": "Create a New Event", "shortcut": "<Ctrl>n"},
+        {"separator": true},
+        {"label": "Quit", "shortcut": "<Ctrl>q"}
+      ]
+    },
+    {
+      "label": "Go",
+      "items": [
+        {"label": "Go to Today's Date", "shortcut": "<Ctrl>t"},
+        {"separator": true},
+        {"label": "Next Month", "shortcut": "Page_Up"},
+        {"label": "Previous Month", "shortcut": "Page_Down"}
+      ]
+    }
+  ]
+}
